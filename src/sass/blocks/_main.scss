@@ -1,8 +1,8 @@
 .main {
     // transition: all 5s linear;
     height: 100vh;
-    transition: all 2s linear;
-    min-height: 650px;
+    min-height: 600px;
+    transition: all 5s linear;
     background: url('../../img/bg-3.jpg') no-repeat 50%/100% 100% scroll;
     mask-image: linear-gradient(to bottom,  #000 90%, transparent);
     color: #a08143;
