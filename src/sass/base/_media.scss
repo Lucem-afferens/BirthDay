@@ -1,0 +1,138 @@
+@media (max-width:1024px) {
+    .main {
+        &__content {
+            &__child {
+                transform: translateX(0);
+            }
+            &__arrow {
+                position: absolute;
+                width: clamp(70px, 20vw, 500px);
+                right: 30%;
+                top: -8%;
+                transform: rotate(110deg) scaleX(-1);
+            }
+            &__text {
+                position: absolute;
+                width: 100%;
+                font-size: clamp(14px, 1.5vw, 24px);
+                top: -19vh;
+                right: 0;
+                text-wrap: pretty;
+                span {
+                    font-size: clamp(12px, 1.5vw, 20px);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        &__wrapper {
+            gap: 25px;
+        }
+        &__content {
+            &__arrow {
+                width: clamp(100px, 10vw, 500px);
+                right: 34%;
+                top: -5%;
+                transform: rotate(110deg) scaleX(-1);
+            }
+            &__text {
+                position: absolute;
+                width: 100%;
+                font-size: clamp(14px, 1.5vw, 24px);
+                top: -13vh;
+                right: 0;
+            }
+        }
+    }
+}
+
+@media (max-width:680px) {
+    .main {
+        &__wrapper {
+            gap: 25px;
+        }
+        &__content {
+            &__arrow {
+                width: clamp(100px, 10vw, 500px);
+                right: 26%;
+                top: -5%;
+                transform: rotate(130deg) scaleX(-1);
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .programm {
+        &__img {
+            &__for-dot {
+                width: 200px;
+            }
+        }
+    }
+    .main {
+        background: url('../../img/bg-5.jpg') no-repeat 50%/100% 100% scroll;
+        mask-image: linear-gradient(to bottom,  #000 90%, transparent);
+    }
+}
+
+
+@media (max-width: 426px) {
+    body {
+        background: #F0EEEB;;
+    }
+    .main {
+        background: url('../../img/bg-6.jpg') no-repeat 50%/100% 100% scroll;
+        mask-image: linear-gradient(to bottom,  #000 90%, transparent);
+        &__wrapper {
+            gap: 35px;
+        }
+        &__content {
+            &__arrow {
+                width: clamp(120px, 10vw, 500px);
+                right: 20%;
+                top: -5%;
+                transform: rotate(110deg) scaleX(-1);
+            }
+            &__text {
+                position: absolute;
+                width: 100%;
+                font-size: clamp(14px, 1.5vw, 24px);
+                top: -17vh;
+                right: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .descr {
+        &_programm {
+            font-size: 12px;
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    .programm {
+        &__wrapper {
+            grid-template-columns: 75px 50vw;
+        }
+    }
+}
+
+
+
+
+
+
+@media (hover: none) {
+    .restaurant {
+        &__img {
+            background: url('../../img/metallist.jpg') no-repeat 50%/cover scroll;
+        }
+    }
+}
