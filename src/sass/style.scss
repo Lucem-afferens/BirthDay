@@ -26,11 +26,17 @@ a {
 body {
     background-color: rgba(230, 168, 215, .2);
     color: #a08143;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
 }
 
 h1 {
     margin-bottom: 0;
 }
+  
+  html {
+    height: -webkit-fill-available;
+  }
 
 
 @import 'base/media';
