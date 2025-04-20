@@ -87,6 +87,7 @@
     .main {
         background: url('../img/bg-6.jpg') no-repeat 50%/100% 100% scroll;
         mask-image: linear-gradient(to bottom,  #000 90%, transparent);
+        height: 100svh;
         &__wrapper {
             gap: 35px;
         }
@@ -134,8 +135,5 @@
         &__img {
             background: url('../img/metallist.jpg') no-repeat 50%/cover scroll;
         }
-    }
-    .main {
-        height: 100svh;
     }
 }
