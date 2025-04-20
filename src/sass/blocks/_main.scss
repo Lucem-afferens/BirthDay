@@ -2,8 +2,8 @@
     // transition: all 5s linear;
     height: 100vh;
     min-height: 600px;
-    transition: all 5s linear;
-    background: url('../../img/bg-3.jpg') no-repeat 50%/100% 100% scroll;
+    transition: all 4s linear;
+    background: url('../img/bg-3.jpg') no-repeat 50%/100% 100% scroll;
     mask-image: linear-gradient(to bottom,  #000 90%, transparent);
     color: #a08143;
     text-align: center;
@@ -46,7 +46,7 @@
         margin: 0 auto;
         align-items: center;
         padding-bottom: 10vh;
-        bottom: 0;
+        bottom: 1vh;
         gap: 20px;
         position: absolute;
         left: 50%;
