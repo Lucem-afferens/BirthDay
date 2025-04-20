@@ -74,7 +74,7 @@
         }
     }
     .main {
-        background: url('../../img/bg-5.jpg') no-repeat 50%/100% 100% scroll;
+        background: url('../img/bg-5.jpg') no-repeat 50%/100% 100% scroll;
         mask-image: linear-gradient(to bottom,  #000 90%, transparent);
     }
 }
@@ -85,7 +85,7 @@
         background: #F0EEEB;;
     }
     .main {
-        background: url('../../img/bg-6.jpg') no-repeat 50%/100% 100% scroll;
+        background: url('../img/bg-6.jpg') no-repeat 50%/100% 100% scroll;
         mask-image: linear-gradient(to bottom,  #000 90%, transparent);
         &__wrapper {
             gap: 35px;
@@ -132,7 +132,7 @@
 @media (hover: none) {
     .restaurant {
         &__img {
-            background: url('../../img/metallist.jpg') no-repeat 50%/cover scroll;
+            background: url('../img/metallist.jpg') no-repeat 50%/cover scroll;
         }
     }
 }
